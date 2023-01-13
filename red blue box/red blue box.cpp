@@ -1,21 +1,64 @@
-// red blue box.cpp : This file contains the 'main' function. Program execution begins and ends there.
-//
-
 #include <iostream>
 #include <cstdlib>
 using namespace std;
+void  Score(string a, int length)
+{
+
+	int point = 0;
+	int multipler = 1;
+	int b = 20;//POINT FOR B = 20
+	int r = 10;//POINT FOR R = 10
+	char pre='~';
+	for (int i = 0; i < length; i++)
+	{
+		if (a[i] == 'B')
+		{
+			if (a[i] == pre)
+			{
+				multipler = multipler + 1;
+				point = point + b * multipler;
+			}
+			else
+			{
+				multipler = 1;
+				point = point + b * multipler;
+				pre = 'B';
+			}
+		}
+		else if (a[i] == 'R')
+		{
+			if (a[i] == pre)
+			{
+				multipler = multipler + 1;
+				point = point + r * multipler;
+			}
+			else
+			{
+				multipler = 1;
+				point = point + r * multipler;
+				pre = 'R';
+			}
+		}
+	}
+	cout << point;
+}
+void mainstring(int item)
+{
+	string value = "";
+	srand(time(0));
+	int upperLimit = 6, lowerLimit = 1;
+		int length = lowerLimit + rand() % (upperLimit - lowerLimit + 1);
+		for (int x = 0; x < length; x++)
+		{
+			char box = rand() % 2 ? 'R' : 'B';
+			value += box;
+		}
+		cout << value << endl;
+		Score(value,length);
+}
 int main()
 {
-    std::cout << "abel\n";
+	int items = 1;
+	mainstring(items);
+	return 0;
 }
-
-// Run program: Ctrl + F5 or Debug > Start Without Debugging menu
-// Debug program: F5 or Debug > Start Debugging menu
-
-// Tips for Getting Started: 
-//   1. Use the Solution Explorer window to add/manage files
-//   2. Use the Team Explorer window to connect to source control
-//   3. Use the Output window to see build output and other messages
-//   4. Use the Error List window to view errors
-//   5. Go to Project > Add New Item to create new code files, or Project > Add Existing Item to add existing code files to the project
-//   6. In the future, to open this project again, go to File > Open > Project and select the .sln file
