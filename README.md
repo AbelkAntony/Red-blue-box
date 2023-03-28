@@ -13,3 +13,6 @@ BBR, etc
 if there are three R's coming consecutively then scoring will take place in different way like if we got the string like RRR
 Scoring -> R(10) + R(20) + R(30) -> Basically 2nd consecutive R will give you 2 * actual
 points, 3rd consecutive R will 3 * actual points, and so on..
+
+
+Here is my replit link : https://replit.com/@mrabelantony/red-and-blue
