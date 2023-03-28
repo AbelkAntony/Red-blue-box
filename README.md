@@ -16,3 +16,10 @@ points, 3rd consecutive R will 3 * actual points, and so on..
 
 
 Here is my replit link : https://replit.com/@mrabelantony/red-and-blue
+
+#ScreenShots
+
+
+![Capture1](/ScreenShots/1.png)
+![Capture1](/ScreenShots/2.png)
+![Capture1](/ScreenShots/3.png)
