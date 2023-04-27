@@ -15,6 +15,10 @@ Scoring -> R(10) + R(20) + R(30) -> Basically 2nd consecutive R will give you 2 
 points, 3rd consecutive R will 3 * actual points, and so on..
 
 
+
+https://user-images.githubusercontent.com/122546743/234966412-ff22cb32-3f79-46aa-9c14-7a525ea01841.mp4
+
+
 Here is my replit link : https://replit.com/@mrabelantony/red-and-blue
 
 #ScreenShots
