@@ -21,7 +21,7 @@ https://user-images.githubusercontent.com/122546743/234966412-ff22cb32-3f79-46aa
 
 Here is my replit link : https://replit.com/@mrabelantony/red-and-blue
 
-#ScreenShots
+# ScreenShots
 
 
 ![Capture1](/ScreenShots/1.png)
